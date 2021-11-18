@@ -1,0 +1,20 @@
+.form-group {
+  margin-bottom: 10px;
+
+  .form-control {
+    width: 100%;
+
+    &:disabled,
+    &[readonly] {
+      cursor: not-allowed;
+    }
+
+    &-sm {
+      height: auto;
+    }
+  }
+
+  .invalid-feedback {
+    height: 19px;
+  }
+}
